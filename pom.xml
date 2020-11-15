@@ -6,7 +6,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-testing</artifactId>
-    <version>1.2</version>
+    <version>1.2.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,30 +95,6 @@
     </repositories>-->
 
 
-
-    <distributionManagement>
-        <!-- packagecloud -->
-        <!--<repository>
-            <id>packagecloud.releases</id>
-            <url>packagecloud+https://packagecloud.io/wolfDeveloper/release</url>
-        </repository>-->
-        <!--<snapshotRepository>
-            <id>packagecloud.snapshots</id>
-            <url>packagecloud+https://packagecloud.io/wolfDeveloper/snapshot</url>
-        </snapshotRepository>-->
-
-        <!-- nexus -->
-
-        <repository>
-            <id>local-nexus-releases</id>
-            <url>http://127.0.0.1:8081/repository/nexus-release/</url>
-        </repository>
-
-        <snapshotRepository>
-            <id>local-nexus-snapshots</id>
-            <url>http://127.0.0.1:8081/repository/nexus-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <build>
 
